@@ -127,4 +127,4 @@ Issues and PRs are welcome — this toolkit is built to grow with real-world Dat
 ---
 
 ## 📄 License
-MIT © [Sai Suraj Miriyala](https://www.linkedin.com/in/sai-surajmiriyala-203537103)
+MIT © [Sai Suraj Miriyala](https://www.linkedin.com/in/sai-suraj-miriyala-203537103/)
