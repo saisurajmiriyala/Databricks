@@ -5,8 +5,6 @@ Reusable Python utilities and accelerators for Databricks developers — built t
 ![Python](https://img.shields.io/badge/python-3.9%2B-blue)
 ![Databricks](https://img.shields.io/badge/Databricks-Lakehouse-FF3621?logo=databricks&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Lakebase-336791?logo=postgresql&logoColor=white)
-![License](https://img.shields.io/badge/license-MIT-green)
-
 ---
 
 ## 📦 What's Inside
@@ -48,8 +46,12 @@ lakebase-utils/
     └── lakebase_utils/
         └── postgres/
             ├── __init__.py
-            ├── connection.py     # connection & session handling
-            └── pipeline.py       # reusable pipeline building blocks
+            ├── connection.py       # connection & session handling
+            ├── bulkload.py         # Bulkload & High voulme data insert and extrcat handling
+            ├── spark_connection.py # spark connection & spark dataframe session handling
+            ├── tablemanager.py     # Database table metadata function
+            └── queryhub.py         # reusable sqlquery execution functions
+
 ```
 
 ---
